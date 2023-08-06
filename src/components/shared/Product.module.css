@@ -1,0 +1,117 @@
+.container{
+    width:250px;
+    background-color: #fff;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 10px 50px;
+    text-align: center;
+    transition: all 0.2s ease;
+}
+.container:hover {
+    box-shadow: rgba(0, 0, 0, 0.09) 0 2px 1px, rgba(0, 0, 0, 0.09) 0 4px 2px,
+    rgba(0, 0, 0, 0.09) 0 8px 4px,rgba(0, 0, 0, 0.09) 0 16px 8px,
+    rgba(0, 0, 0, 0.09) 0 32px 16px ;
+}
+
+.container:hover .productImg{
+    transform: scale(1.1);
+}
+
+.productImg{
+    width: 230px;
+    height: 230px;
+    margin: 15px 10px;
+    transition: all 0.28s ease;
+}
+
+.container h3{
+    color: #404040;
+    text-align: left;
+    font-size: 1.1rem;
+    margin: 25px 20px 15px;
+}
+.container p{
+    color: #404040;
+    text-align: left;
+    margin: 20px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: 30px;
+}
+.linkContainer a{
+    text-decoration: none;
+    color: #fb8500;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.linkContainer a:hover{
+    color: #f4a261;
+}
+.buttonContainer button{
+    color: #fff;
+    background-color: #fb8500;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 96, 0.25) 0 4px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+.smallButton{
+    width: 30px !important;
+    font-size: 1.6rem !important;
+    line-height: 30px;
+    font-weight: bold;
+}
+.smallButton img{
+    width: 20px;
+}
+.buttonContainer button:hover{
+    background-color: #f4a261;
+}
+.counter{
+    display: inline-block;
+    width: 20px;
+    margin-left: 5px;
+    color: #fb8500;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        width: 45%;
+    }
+    .productImg{
+        width: 200px;
+    }
+}
+@media (max-width: 555px) {
+    .container{
+        width: 70%;
+    }
+    .productImg{
+        width: 230px;
+    }
+}
+@media (max-width: 400px) {
+    .container{
+        width: 90%;
+    }
+}

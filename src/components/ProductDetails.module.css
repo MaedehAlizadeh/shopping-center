@@ -1,0 +1,123 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid silver;
+    margin: 150px 150px 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.productImg{
+    width: 50%;
+    height: 500px;
+}
+.textContainer{
+    width: 50%;
+    text-align: left;
+    margin-left: 30px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.textContainer h3{
+    font-size: 30px;
+    color: #000;
+    margin-bottom: 30px;
+}
+.description{
+    margin-bottom: 10px;
+}
+.category span{
+    color: goldenrod;
+    font-weight: bold;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+    margin-top: 40px;
+    width: 300px;
+}
+.price{
+    font-size: 25px;
+    color: #000;
+    font-weight: 800;
+    margin-top: 20px;
+}
+.buttonContainer button{
+    color: #fff;
+    background-color: #fb8500;
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: all 0.2s ease;
+    box-shadow: rgba(50, 50, 96, 0.25) 0 4px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+.disabledButton{
+    width: 30px !important;
+    font-size: 1.6rem !important;
+    line-height: 30px;
+    font-weight: bold;
+    background-color: #fac192 !important;
+    cursor: none;
+}
+.smallButton{
+    width: 30px !important;
+    font-size: 1.6rem !important;
+    line-height: 30px;
+    font-weight: bold;
+}
+.smallButton img{
+    width: 20px;
+}
+.buttonContainer button:hover{
+    background-color: #f4a261;
+}
+.counter{
+    display: inline-block;
+    width: 10px;
+    margin-left: 5px;
+    color: #fb8500;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+@media (max-width: 1200px) {
+    .container{
+        margin: 120px 80px 50px;
+    }
+}
+@media (max-width: 1000px) {
+    .container{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .container img{
+        width: 170px;
+        margin-bottom: 50px;
+    }
+    .textContainer{
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        margin: 120px 40px 50px;
+    }
+    .textContainer{
+        margin: 0;
+    }
+}
+@media (max-width: 555px) {
+    .container{
+        margin: 120px 20px 50px;
+    }
+    .textContainer{
+        margin: 0;
+    }
+}

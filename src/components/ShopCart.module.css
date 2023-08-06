@@ -1,0 +1,112 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 150px 175px 50px;
+    transition: all 0.2s ease;
+}
+.cartContainer{
+    width: 70%;
+}
+.payments{
+    width: 27%;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 10px;
+    text-align: left;
+}
+.payments p{
+    color: rgb(61, 61, 61);
+    margin: 20px 20px 10px;
+}
+.payments p span{
+    color: #fb8500;
+    font-weight: bold;
+}
+.buttonContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 50px 20px 10px;
+}
+.buttonContainer button{
+    cursor: pointer;
+    font-weight: bold;
+}
+.clear{
+    background-color: #fff;
+    border: none;
+    color: #34a853;
+}
+.clear:hover{
+    color: #167d32;
+}
+.checkout{
+    background-color: #34a853;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 15px;
+    transition: all 0.2s ease;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px,rgba(0, 0, 0, 0.07) 0px 2px 2px,
+    rgba(0, 0, 0, 0.07) 0px 4px 4px,rgba(0, 0, 0, 0.07) 0px 4px 8px,
+    rgba(0, 0, 0, 0.07) 0px 9px 16px ;
+}
+.checkout:hover{
+    background-color: #167d32;
+}
+.complete h3{
+    color: #34a853;
+    font-size: 1.2rem;
+    margin: 30px 0 50px;
+}
+.complete a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #fb8500;
+    color: #fff;
+    height: 30px;
+    line-height: 25px;
+    width: 120px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: rgba(50, 50, 96, 0.25) 0 4px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+}
+.complete a:hover{
+    background-color: #f4a261;
+}
+
+@media (max-width: 1200px) {
+    .container{
+        margin: 130px 80px 50px;
+    }
+}
+@media (max-width: 1050px) {
+    .container{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 130px 80px 50px;
+    }
+    .cartContainer{
+        width: 100%;
+    }
+    .payments{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        margin: 120px 40px 50px;
+    }
+}
+@media (max-width: 555px) {
+    .container{
+        margin: 110px 20px 50px;
+    }
+}
