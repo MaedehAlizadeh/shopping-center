@@ -1,7 +1,7 @@
 {
   "name": "shopping-center",
   "version": "0.1.0",
-  "homepage": "https://maedehalizadeh.github.io/shopping-center",
+  "homepage": "https://maedehalizadeh.github.io/MA-shopping",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -20,7 +20,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "shopping-center -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
