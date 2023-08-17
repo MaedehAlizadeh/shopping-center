@@ -7,3 +7,12 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #f7f7f7;
 }
+
+@font-face {
+font-family: "Angelina";
+src: local("Angelina-rnlA"), url("./fonts/Angelina-rnlA.otf") format("opentype");
+}
+@font-face {
+  font-family: "Disco";
+  src: url('./fonts/disco.otf') format('opentype');
+}

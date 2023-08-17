@@ -1,3 +1,5 @@
+
+
 .container {
     position: fixed;
     top: 0;
@@ -7,30 +9,43 @@
     box-shadow: 0 5px 24px rgba(149, 157, 165, 0.4);
     z-index: 10;
 }
-
 .navbar{
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: space-between;
     padding: 30px 180px;
     height: 40px;
 }
-
-.productLink{
+.brand{
+    color: #3a86ff;
+    font-size: 35px;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Angelina';
+}
+.navLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.navLink{
     text-decoration: none;
     color: #3a86ff;
     font-weight: bold;
-    border-bottom: 2px solid #3a86ff;
+    /* border-bottom: 2px solid #3a86ff; */
     border-radius: 5px;
     padding: 0 5px;
+    margin: 0 20px;
     transition: all 0.3s ease;
 }
 
-.productLink:hover{
+.navLink:hover{
     color: #0b499b;
     border-bottom-color: #0b499b;
 }
 .iconContainer{
+    margin-left: 30px;
     position: relative;
 }
 .iconContainer img{
@@ -67,3 +82,4 @@
         padding: 15px 20px;
     }
 }
+

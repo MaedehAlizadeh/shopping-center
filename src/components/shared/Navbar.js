@@ -14,10 +14,14 @@ const Navbar = () => {
     return (
         <div className={styles.container}>
             <div className={styles.navbar}>
-                <Link to='/products' className={styles.productLink}>Products</Link>
-                <div className={styles.iconContainer}>
-                    <Link to='/cart'><img src={cartIcons} alt='cart'/></Link>
-                    <span>{state.itemsCounter}</span>
+                <Link to='/' className={styles.brand}>Shopping Center</Link>
+                <div className={styles.navLinks}>
+                    <Link to='/' className={styles.navLink}>Home</Link>
+                    <Link to='/products' className={styles.navLink}>Products</Link>
+                    <div className={styles.iconContainer}>
+                        <Link to='/cart'><img src={cartIcons} alt='cart'/></Link>
+                        <span>{state.itemsCounter}</span>
+                    </div>
                 </div>
             </div>
         </div>
