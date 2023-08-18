@@ -1,8 +1,11 @@
 import React from 'react';
 
+// Styles
+import styles from './HomePage.module.css';
+
 const HomePage = () => {
     return (
-        <div>
+        <div className={styles.container}>
             It's empty for now
         </div>
     );
