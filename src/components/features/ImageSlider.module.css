@@ -1,0 +1,10 @@
+.container{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+.productImage{
+    width: 400px;
+    height: 500px;
+}

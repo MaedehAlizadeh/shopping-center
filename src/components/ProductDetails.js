@@ -10,6 +10,8 @@ import { fetchProductDetails } from '../redux/productDetails/productDetailsActio
 import { isInCart, quantityCount } from '../helper/functions';
 // Actions
 import { addItem, removeItem, increase, decrease } from '../redux/cart/cartAction';
+// Component
+import ImageSlider from './features/ImageSlider';
 
 
 const ProductDetails = () => {
@@ -27,7 +29,7 @@ const ProductDetails = () => {
 
     return (
         <div className={styles.container}>
-            <img className={styles.productImg} src={image} alt="product" />
+            <ImageSlider image={image}/>
             <div className={styles.textContainer}>
                 <h3>{title}</h3>
                 <p className={styles.description}>{description}</p>
