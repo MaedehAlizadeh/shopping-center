@@ -1,0 +1,50 @@
+.container{
+    padding: 50px 150px;
+    background-color: #fac192;
+}
+.brand{
+    color: #3a86ff;
+    font-size: 25px;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Angelina';
+    margin-bottom: 20px;
+    display: block;
+}
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.footerLink{
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+.title{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 0;
+}
+.footerForm{
+    display: flex;
+    height: 40px;
+}
+.formInput{
+    width: 350px;
+    border: none;
+    outline: none;
+    height: 40px;
+    border-bottom-left-radius: 17px;
+    padding: 0 18px;
+    color: #707070;
+}
+.formButton{
+    border-top-right-radius: 17px;
+    border: none;
+    border-left: 1px solid #000;
+    padding: 0 10px;
+    background-color: #fff;
+}
