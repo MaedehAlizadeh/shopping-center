@@ -58,7 +58,8 @@
     color: #fff;
     background-color: #fb8500;
     border: none;
-    border-radius: 5px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
     width: 120px;
     height: 30px;
     font-size: 0.9rem;

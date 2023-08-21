@@ -5,6 +5,7 @@
   align-items: center;
   margin-top: 150px;
   padding: 0 150px;
+  min-height: calc(100vh - 492px);
 }
 .isError{
   display: flex;

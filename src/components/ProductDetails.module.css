@@ -7,6 +7,7 @@
     margin: 150px 150px 50px;
     padding: 30px;
     border-radius: 10px;
+    min-height: calc(100vh - 487px);
 }
 .textContainer{
     width: 50%;

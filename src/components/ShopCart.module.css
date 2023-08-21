@@ -4,7 +4,8 @@
     align-items: flex-start;
     margin: 150px 175px 50px;
     transition: all 0.2s ease;
-    min-height: 35.2vh;
+    min-height: calc(100vh - 492px);
+
 }
 .cartContainer{
     width: 70%;

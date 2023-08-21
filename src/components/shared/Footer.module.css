@@ -1,5 +1,5 @@
 .container{
-    padding: 50px 150px;
+    padding: 50px 200px 80px;
     background-color: #fac192;
 }
 .brand{
@@ -14,7 +14,7 @@
 .linkContainer{
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: baseline;
 }
 .footerLink{
     display: block;
@@ -37,14 +37,14 @@
     border: none;
     outline: none;
     height: 40px;
-    border-bottom-left-radius: 17px;
+    border-top-left-radius: 17px;
     padding: 0 18px;
     color: #707070;
 }
 .formButton{
-    border-top-right-radius: 17px;
+    background-color: #fff;
+    padding: 0 10px;
     border: none;
     border-left: 1px solid #000;
-    padding: 0 10px;
-    background-color: #fff;
+    border-bottom-right-radius: 17px;
 }
