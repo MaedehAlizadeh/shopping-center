@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-center/static/css/main.ef936126.css",
-    "main.js": "/shopping-center/static/js/main.568502ce.js",
+    "main.css": "/shopping-center/static/css/main.9a229610.css",
+    "main.js": "/shopping-center/static/js/main.36857a8e.js",
     "static/media/disco.otf": "/shopping-center/static/media/disco.4cdc3b6b375bae4eace1.otf",
     "static/media/Angelina-rnlA.otf": "/shopping-center/static/media/Angelina-rnlA.e4997ff33d072c402b6c.otf",
     "static/media/error.svg": "/shopping-center/static/media/error.193b898ba55bb779e9e0a138d736776a.svg",
@@ -12,11 +12,11 @@
     "index.html": "/shopping-center/index.html",
     "static/media/shop.svg": "/shopping-center/static/media/shop.8e32863c7b286516f4352d402525a93f.svg",
     "static/media/trash.svg": "/shopping-center/static/media/trash.3b106fc6789b1ff09aba8a30ae7dc1ed.svg",
-    "main.ef936126.css.map": "/shopping-center/static/css/main.ef936126.css.map",
-    "main.568502ce.js.map": "/shopping-center/static/js/main.568502ce.js.map"
+    "main.9a229610.css.map": "/shopping-center/static/css/main.9a229610.css.map",
+    "main.36857a8e.js.map": "/shopping-center/static/js/main.36857a8e.js.map"
   },
   "entrypoints": [
-    "static/css/main.ef936126.css",
-    "static/js/main.568502ce.js"
+    "static/css/main.9a229610.css",
+    "static/js/main.36857a8e.js"
   ]
 }
