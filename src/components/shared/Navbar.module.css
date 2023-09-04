@@ -14,12 +14,13 @@
     padding: 30px 180px;
     height: 40px;
 }
-.brand{
+.navBrand{
     color: #3a86ff;
     font-size: 35px;
     font-weight: 900;
     text-decoration: none;
     font-family: 'Angelina';
+    padding-bottom: 10px;
 }
 .navLinks{
     display: flex;
@@ -31,7 +32,6 @@
     text-decoration: none;
     color: #3a86ff;
     font-weight: bold;
-    /* border-bottom: 2px solid #3a86ff; */
     border-radius: 5px;
     padding: 0 5px;
     margin: 0 20px;
@@ -67,17 +67,29 @@
 
 @media (max-width: 1200px) {
     .navbar{
-        padding: 15px 80px;
+        padding: 20px 80px;
     }
 }
 @media (max-width: 768px) {
     .navbar{
+        height: 60px;
         padding: 15px 40px;
+    }
+    .iconContainer{
+        position: fixed;
+        top: 35px;
+        right: 90px;
     }
 }
 @media (max-width: 555px) {
     .navbar{
+        display: block;
         padding: 15px 20px;
     }
+    .brand{
+        display: block;
+        text-align: center;
+    }
 }
+
 
